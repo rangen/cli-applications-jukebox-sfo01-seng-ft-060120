@@ -46,7 +46,7 @@ def run
 
   endputs "Please enter a command:"
   user_input = gets.strip
-
+  binding.pry
   case user_input
     when "exit"
       exit_jukebox
