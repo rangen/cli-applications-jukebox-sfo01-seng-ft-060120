@@ -39,7 +39,7 @@ end
 
 def run
   do
-    
+
   endputs "Please enter a command:"
   user_input = gets.strip
 
@@ -55,5 +55,5 @@ def run
     list
   end
   loop
-    
+
 end
