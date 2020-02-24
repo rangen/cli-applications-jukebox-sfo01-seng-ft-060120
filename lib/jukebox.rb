@@ -42,21 +42,21 @@ def exit_jukebox
 end
 
 def run
-  loop
+  loop do
 
   endputs "Please enter a command:"
   user_input = gets.strip
 
   case user_input
-  when "exit"
-    exit_jukebox
-    break
-  when "help"
-    help
-  when "play"
-    play(songs)
-  when "list"
-    list
+    when "exit"
+      exit_jukebox
+      break
+    when "help"
+      help
+    when "play"
+      play(songs)
+    when "list"
+      list
   end
 end
 
