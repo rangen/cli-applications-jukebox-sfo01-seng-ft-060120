@@ -38,7 +38,7 @@ def play(songs)
 end
 
 def run
-  loop do
+  loop 
 
   endputs "Please enter a command:"
   user_input = gets.strip
