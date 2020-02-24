@@ -44,9 +44,9 @@ end
 def run
   loop do
 
-  endputs "Please enter a command:"
+  puts "Please enter a command:"
   user_input = gets.strip
-  binding.pry
+
   case user_input
     when "exit"
       exit_jukebox
